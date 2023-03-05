@@ -21,11 +21,12 @@ pip3 install pyyaml
 
 # Install & Configuration
 ## Get the code
+```
 wget https://github.com/TheGrumpyBadger/openDTU-NullEinSpeisung-VenusOS/archive/refs/heads/main.zip
 unzip main.zip
 rm main.zip
-mv openDTU-NullEinSpeisung-main/ openDTU-NullEinSpeisung/
-cd /data/openDTU-NullEinSpeisung/
+mv openDTU-NullEinspeisung-VenusOS-main/ openDTU-NullEinspeisung/
+cd /data/openDTU-NullEinspeisung/
 sh ./install.sh
 ```
 
