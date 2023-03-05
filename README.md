@@ -1,4 +1,4 @@
-# openDTU-NullEinSpeisung-VenusOS
+# openDTU-Nulleinspeisung-VenusOS
 
 Um das Script auf VenusOS (Raspberry Pi oder Victron Cerberus) zu starten müssen die Script und Abhängigkeiten angepasst werden.
 Als Grundlage dient das Script von Kotty666 ( https://github.com/Kotty666/openDTU-NullEinSpeisung ).
@@ -22,11 +22,12 @@ pip3 install pyyaml
 # Install & Configuration
 ## Get the code
 ```
-wget https://github.com/TheGrumpyBadger/openDTU-NullEinSpeisung-VenusOS/archive/refs/heads/main.zip
+wget https://github.com/TheGrumpyBadger/openDTU-Nulleinspeisung-VenusOS/archive/refs/heads/main.zip
 unzip main.zip
 rm main.zip
-mv openDTU-NullEinspeisung-VenusOS-main/ openDTU-NullEinspeisung/
-cd /data/openDTU-NullEinspeisung/
+mv openDTU-Nulleinspeisung-VenusOS-main/ openDTU-Nulleinspeisung/
+cd /data/openDTU-Nulleinspeisung/
+nano config.yaml
 sh ./install.sh
 ```
 
