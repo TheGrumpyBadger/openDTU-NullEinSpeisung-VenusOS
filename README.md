@@ -1,6 +1,6 @@
 # openDTU-NullEinSpeisung-VenusOS
 
-Um das Script auf VenusOS (Raspberry Pi der Cerberus) zu starten müssen die Script und Abhängigkeiten angepasst werden.
+Um das Script auf VenusOS (Raspberry Pi oder Victron Cerberus) zu starten müssen die Script und Abhängigkeiten angepasst werden.
 Als Grundlage dient das Script von Kotty666 ( https://github.com/Kotty666/openDTU-NullEinSpeisung ).
 
 
