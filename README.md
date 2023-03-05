@@ -1,7 +1,21 @@
-# openDTU-NullEinSpeisung
+# openDTU-NullEinSpeisung-VenusOS
+
+Um das Script auf VenusOS (Raspberry Pi der Cerberus) zu starten müssen die Script und Abhängigkeiten angepasst werden.
+Als Grundlage dient das Script von Kotty666 ( https://github.com/Kotty666/openDTU-NullEinSpeisung ).
+
+
 Durch die Inspiration von https://selbstbau-pv.de/wissensbasis/nulleinspeisung-hoymiles-hm-1500-mit-opendtu-python-steuerung/ entstand dieses Script
-Es Dient dazu da Einen oder Mehrere Shelly-3EM auszulesen und deren Stromverbrauch in einklang mit der Solar-Produktion zu bekommen.
+Es Dient dazu da einen oder mehrere Shelly-3EM auszulesen und deren Stromverbrauch in Einklang mit der Solar-Produktion zu bekommen.
 Die Produktionsdaten kann von einer oder mehreren openDTUs kommen.
+
+## Installation vorbereiten
+
+Das Script benötigt Python3 und dort muss noch das modul pyyaml nachinstalliert werden.
+
+
+```
+./install.sh
+```
 
 # Install & Configuration
 ## Get the code
@@ -56,11 +70,4 @@ openDTU:
     user: ''
     password: ''
 ```
-## Installation
 
-Das Script benötigt Python3 und dort muss noch das modul pyyaml nachinstalliert werden.
-Ausgelegt ist es dass es als SystemD Service läuft, mit ausführen des install.sh scriptes werden die Abhängkeiten aufgelöst und der Systemd Service anelegt
-Für **Debian/Ubunut/Raspbian** benutzer liegt das Script **install.sh** bereit.
-```
-./install.sh
-```
