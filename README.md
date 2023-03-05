@@ -10,26 +10,23 @@ Die Produktionsdaten kann von einer oder mehreren openDTUs kommen.
 
 ## Installation vorbereiten
 
-Das Script benötigt Python3 und dort muss noch das modul pyyaml nachinstalliert werden.
+Das Script benötigt Python3, pip3  und dort muss noch das modul pyyaml nachinstalliert werden.
 
 
 ```
-./install.sh
+opkg update
+opkg install python3-pip
+pip3 install pyyaml
 ```
 
 # Install & Configuration
 ## Get the code
-### Git Clone:
-```
-git clone https://github.com/Kotty666/openDTU-NullEinSpeisung.git
-cd openDTU-NullEinSpeisung
-```
-### Zip Download
-```
-wget https://github.com/Kotty666/openDTU-NullEinSpeisung/archive/refs/heads/main.zip
+wget https://github.com/TheGrumpyBadger/openDTU-NullEinSpeisung-VenusOS/archive/refs/heads/main.zip
 unzip main.zip
 rm main.zip
 mv openDTU-NullEinSpeisung-main/ openDTU-NullEinSpeisung/
+cd /data/openDTU-NullEinSpeisung/
+sh ./install.sh
 ```
 
 ## Configuration
